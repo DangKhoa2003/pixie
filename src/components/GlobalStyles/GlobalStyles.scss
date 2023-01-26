@@ -1,0 +1,23 @@
+@import 'normalize.css';
+@import url(//db.onlinewebfonts.com/c/f7bc9f3a43d932504a1acd84c3452ff8?family=Bigilla);
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+:root {
+    --primary: #ffd585;
+    --light: #fff;
+    --dark: #0c0c0c;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Bigilla", "Italianno", cursive, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}

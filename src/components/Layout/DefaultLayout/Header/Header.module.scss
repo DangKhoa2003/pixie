@@ -1,0 +1,44 @@
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: transparent;
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .listItem {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            align-content: center;
+            li+li {
+                padding-left: 40px;
+                color: var(--light);
+            }
+        }
+        .contactUs {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    .liLogo {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        .logo {
+            font-size: 4rem;
+        }
+    }
+}
